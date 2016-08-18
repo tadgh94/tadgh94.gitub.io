@@ -1,0 +1,90 @@
+
+body {
+	position: fluid;
+}
+
+.nav {
+	display: inline;
+	height: 40px;
+	width: 640px;
+	float: right;
+	margin-right: 20px;
+	font-size: 12.5pt;
+	color:black;
+}
+
+h1 {
+	margin-left: 40px;
+	font-family: "Fragment Core";
+	padding-top: 5px;
+	font-size: 50px;
+	color: orange;
+}
+
+.carousel .item {
+  height: 500px;
+  background-color:transparent;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 15%;
+  right: 15%;
+  min-width:70%;
+  height: 500px;
+}
+
+h2 {
+	color: white;
+	padding: 15px;
+	font-size: 40px;
+}
+
+p {
+	color: white;
+	padding: 15px;
+	font-size: 25px;
+}
+
+h5 {
+	font-size: 25px;
+	font-family: "Fragment Core";
+	color: black;
+}
+
+h3 {
+	font-size: 25px;
+	color: white;
+	padding: 25px;
+}
+
+h4 {
+	color: white;
+	position:center;
+}
+
+{.img-circle{
+	width: 100px;
+	height: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.form-control{
+	width: 50%;
+}
+
+* {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+    height: auto;
+    height: 100%;
+    margin: 0 auto -155px; 
+}
+.footer, .push {
+    height: 155px; 
+}
